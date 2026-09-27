@@ -21,7 +21,10 @@
             --color-text-light: white;
 
             /* Typography */
-            --font-primary: "poppins", sans-serif, font-weight: 400, font-style: normal;
+            --font-primary: "Poppins", sans-serif;
+            --font-weight-normal: 400;
+            --font-style-normal: normal;
+
             --font-secondary: 'Roboto Mono', monospace;
 
             /* Spacing System */
@@ -45,6 +48,8 @@
 
         body {
             font-family: var(--font-primary);
+            font-weight: var(--font-weight-normal);
+            font-style: var(--font-style-normal);
             line-height: 1.6;
             background-color: var(--color-background);
             color: var(--color-text-dark);
@@ -197,10 +202,10 @@
 
         <section>
             <h2>Typography</h2>
-            <h1>Heading 1 - Poppins Thin</h1>
-            <h2>Heading 2 - Poppins Thin</h2>
-            <h3>Heading 3 - Poppins Thin</h3>
-            <p class="body-text">Body Text - Using Poppins Thin with a comfortable line height and readable size.</p>
+            <h1>Heading 1 - Poppins</h1>
+            <h2>Heading 2 - Poppins</h2>
+            <h3>Heading 3 - Poppins</h3>
+            <p class="body-text">Body Text - Using Poppins with a comfortable line height and readable size.</p>
             <p class="small-text">Small Text - Subtle and understated, perfect for annotations and footnotes.</p>
         </section>
 
