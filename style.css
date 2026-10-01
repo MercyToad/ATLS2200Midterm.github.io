@@ -1,0 +1,26 @@
+body {
+    font-family: "Poppins", sans-serif;;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6;
+    background-color: #F6F2DF;
+    color: #001b29;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #731523;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #00507A;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #A04000;
+}
