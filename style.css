@@ -24,3 +24,32 @@ h3 {
     font-weight: 500;
     color: #A04000;
 }
+
+.banner{
+    text-align: center;
+}
+
+.who, .how, .when, .what, .where{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+
+}
+.text-box{
+    width: 500px;     
+    height: 200px; 
+}
+#whoimage{
+    width: 200px;
+
+}
+.instagram{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #363737; 
+    width: 75px;             
+    height: 75px;             
+    border-radius: 50%;
+}
