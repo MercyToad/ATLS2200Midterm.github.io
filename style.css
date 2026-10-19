@@ -26,13 +26,15 @@ h3 {
 }
 
 /* Faculty/staff directory */
-#spring-2026-staff {
+#spring-2026-staff,
+#emeritus {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 2rem;
 }
 
-#spring-2026-staff > h2 {
+#spring-2026-staff > h2,
+#emeritus > h2 {
     grid-column: 1 / -1;
     margin-bottom: 0;
 }
@@ -56,7 +58,8 @@ h3 {
 }
 
 @media (max-width: 800px) {
-    #spring-2026-staff {
+    #spring-2026-staff,
+    #emeritus {
         grid-template-columns: 1fr;
     }
 }
