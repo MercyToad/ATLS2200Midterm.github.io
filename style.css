@@ -74,6 +74,26 @@ h3 {
     margin-top: 0;
 }
 
+.resource-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.resource-buttons a {
+    padding: 0.65rem 1rem;
+    border-radius: 0.4rem;
+    background-color: #00507A;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.resource-buttons a:hover,
+.resource-buttons a:focus-visible {
+    background-color: #731523;
+}
+
 @media (max-width: 800px) {
     #spring-2026-staff,
     #emeritus {
