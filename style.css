@@ -73,6 +73,16 @@ h3 {
     border-radius: 50%;
 }
 
+.staff-member img.zack-photo {
+    width: 150px;
+    height: 150px;
+    flex-basis: 150px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+
 .staff-member h3 {
     margin-top: 0;
 }
