@@ -107,16 +107,45 @@ h3 {
     text-align: center;
 }
 
-.who, .how, .when, .what, .where{
+.who, .how, .when, .what, .where, .workshop {
     align-items: center;
     display: flex;
     gap: 20px;
     padding: 20px;
-
 }
-.text-box{
-    width: 500px;     
-    height: 200px; 
+
+.who .section-text, .how .section-text, .when .section-text,
+.what .section-text, .where .section-text, .workshop .section-text,
+.who img, .how img, .when img, .what img, .workshop img,
+.where iframe {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+.who img, .how img, .when img, .what img, .workshop img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.support {
+    padding: 0 20px;
+}
+
+.section-text h2 {
+    margin: 0 0 10px;
+}
+
+.text-box {
+    width: auto;
+    height: auto;
+    max-width: 500px;
+}
+
+.where iframe {
+    width: 100%;
+    height: 450px; 
+    border: 0;
 }
 .instagram {
     display: flex;
@@ -219,10 +248,12 @@ nav > a:focus-visible {
     }
 }
 
-footer{
+footer {
     background-color: #e6e2d0;
     bottom: 0;
     left: 0;
     width: 100%;
     z-index: 9999;
+    box-sizing: border-box;  
+    padding: 20px;            
 }
