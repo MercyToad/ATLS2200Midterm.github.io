@@ -315,6 +315,7 @@ footer {
     color: #134777;
     margin-top: 0;
     margin-bottom: 18px;
+    text-shadow: 4px 6px 12px 0px rgba(0, 0, 255, 0.3);
 }
 
 /* Text inside each card */
