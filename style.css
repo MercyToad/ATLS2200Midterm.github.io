@@ -17,6 +17,8 @@ body {
     overflow-y: auto;
     overscroll-behavior-y: none;
     height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 header {
