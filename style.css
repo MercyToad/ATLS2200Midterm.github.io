@@ -280,3 +280,103 @@ footer {
     box-sizing: border-box;  
     padding: 20px;            
 }
+
+
+/* WHO, HOW, WHEN, WHAT, WHERE cards */
+
+.who,
+.how,
+.when,
+.what,
+.where {
+    box-sizing: border-box;
+    width: 88%;
+    max-width: 1400px;
+    margin: 45px auto;
+    padding: 35px;
+
+    background-color: #E8F3F8;
+    border-radius: 18px;
+    box-shadow: 0 4px 14px rgba(0, 27, 41, 0.08);
+
+    display: grid;
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+    align-items: center;
+    gap: 35px;
+}
+
+/* Section headings */
+
+.who h2,
+.how h2,
+.when h2,
+.what h2,
+.where h2 {
+    color: #134777;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+/* Text inside each card */
+
+.section-text {
+    min-width: 0;
+}
+
+.text-box {
+    font-size: 20px;
+    line-height: 1.7;
+    color: #001B29;
+    margin: 0;
+}
+
+/* Keep images contained within their cards */
+
+.who img,
+.how img,
+.when img,
+.what img {
+    display: block;
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+}
+
+/* Make the map fit the WHERE card */
+
+.where iframe {
+    width: 100%;
+    height: 280px;
+    border: 0;
+    border-radius: 12px;
+}
+
+/* Responsive layout for phones and smaller screens */
+
+@media (max-width: 700px) {
+    .who,
+    .how,
+    .when,
+    .what,
+    .where {
+        width: 92%;
+        padding: 22px;
+        margin: 25px auto;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .who img,
+    .how img,
+    .when img,
+    .what img,
+    .where iframe {
+        height: 230px;
+    }
+
+    .text-box {
+        font-size: 18px;
+    }
+}
