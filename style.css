@@ -231,6 +231,7 @@ nav > a:not(.nav-logo) {
     font-size: 24px;
     font-weight: 500;
     white-space: nowrap;
+    text-decoration: none;
 }
 
 nav > a:visited {
@@ -319,6 +320,228 @@ footer {
     margin-bottom: 18px;
     text-shadow: 4px 6px 12px 0px rgba(0, 0, 255, 0.3);
 }
+/* tools */
+.tools {
+    box-sizing: border-box;
+    width: 88%;
+    max-width: 1400px;
+    margin: 45px auto;
+    padding: 35px;
+
+    background-color: #daf0e3;
+    border-radius: 18px;
+    box-shadow: 0 4px 14px rgba(0, 27, 41, 0.08);
+
+    display: grid;
+    grid-template-columns: minmax(0, 0.6fr) minmax(0, 1fr);
+    align-items: start;
+    gap: 35px;
+}
+
+.tools-left {
+    min-width: 0;
+}
+
+.tools h2 {
+    color: #134777;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+.tools-left p {
+    line-height: 1.6;
+    margin-bottom: 22px;
+}
+
+.tools-left img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tools-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 0;
+    padding-top: 125px;
+}
+
+.tools-right h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.tools-right table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tools-right td {
+    vertical-align: top;
+    padding: 0 8px 0 0;
+}
+
+.tools-right ul {
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+.tools-right li {
+    margin-bottom: 10px;
+}
+/* Woodshop */
+.woodshop {
+    box-sizing: border-box;
+    width: 88%;
+    max-width: 1400px;
+    margin: 45px auto;
+    padding: 35px;
+
+    background-color: #fef3ff;
+    border-radius: 18px;
+    box-shadow: 0 4px 14px rgba(0, 27, 41, 0.08);
+
+    display: grid;
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1fr);
+    align-items: start;
+    gap: 35px;
+}
+
+.woodshop-left {
+    min-width: 0;
+}
+
+.woodshop h2 {
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+.woodshop-left p {
+    max-width: 500px;
+    line-height: 1.6;
+    margin-bottom: 22px;
+}
+
+.woodshop-left img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.woodshop-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 0;
+    padding-top: 150px;
+}
+
+.woodshop-right h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.woodshop-right table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.woodshop-right td {
+    vertical-align: top;
+    padding-right: 8px;
+}
+
+.woodshop-right ul {
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+.woodshop-right li {
+    margin-bottom: 10px;
+}
+
+.woodshop-right > p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Sewing */
+.sewing {
+    box-sizing: border-box;
+    width: 88%;
+    max-width: 1400px;
+    margin: 45px auto;
+    padding: 35px;
+
+    background-color: #feffdc;
+    border-radius: 18px;
+    box-shadow: 0 4px 14px rgba(0, 27, 41, 0.08);
+
+    display: grid;
+    grid-template-columns: minmax(0, 0.7fr) minmax(0, 1fr);
+    align-items: start;
+    gap: 35px;
+}
+
+.sewing-left {
+    min-width: 0;
+}
+
+.sewing-left img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.sewing-left p {
+    max-width: 500px;
+    line-height: 1.6;
+}
+
+.sewing-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 0;
+    padding-top: 150px;
+}
+
+.sewing-right h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sewing-right table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.sewing-right td {
+    vertical-align: top;
+    padding-right: 8px;
+}
+
+.sewing-right ul {
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+.sewing-right li {
+    margin-bottom: 10px;
+}
+
 
 /* Text inside each card */
 
