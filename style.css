@@ -393,6 +393,10 @@ footer {
     .page-banner img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 350px;
+    }
+    @media (max-width: 700px) {
+    .page-banner img {
+        height: 200px;
     }
 }
